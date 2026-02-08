@@ -1,0 +1,68 @@
+/* #region Base style */
+body {
+    font-family: Roboto, sans-serif;
+    color: #2E2F42;
+    background-color: #FFFFFF;}
+ul, 
+ol {list-style-type: none;}
+
+/* #endregion */
+
+/* region header */
+.header {color: #FFFFFF;}
+
+.nav-menu {color: #2E2F42;}
+
+.nav-menu-link {color: #2E2F42;}
+
+.nav-menu-item {color: #2E2F42;}
+/* endregion */
+
+/* region logo */
+.logo {
+    font-family: Raleway, sans-serif;
+    color: #4D5AE5;
+}
+
+.logo-dark {
+    color: #2E2F42;
+}
+/* endregion */
+
+/* redion address */
+.address {}
+
+.address-mail {}
+
+.address-tel {}
+/* endregion */
+
+/* redion Hero */
+.hero{}
+.hero-text{}
+/* endregion */
+
+/* #region Buttons */
+.btn {}
+
+.btn-accent {}
+
+.btn-primary {}
+
+.btn-secondary {}
+
+/* #endregion */
+
+/* #region Benefits */
+.benefits {}
+
+.benefits-title {}
+
+.benefits-list {}
+
+.benefits-item {}
+
+.benefits-subtitle {}
+
+.benefits-text {}
+/* #endregion */
