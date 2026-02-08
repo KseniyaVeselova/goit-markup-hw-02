@@ -1,6 +1,7 @@
 /* #region Base style */
 body {
-    color: #2E2F42;
+    font-family: 'Roboto' ,sans-serif;
+    color: #434455;
     background-color: #FFFFFF;}
     /* Reset */
 ul, 
@@ -17,22 +18,21 @@ address {
 /* #endregion */
 
 /* region header */
-.nav-menu-item {font-family: "Roboto", sans-serif;
+.nav-menu-a {font-family: "Roboto", sans-serif;
 font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;}
+.nav-menu-a:hover,
+.nav-menu-a:focus { color:  #404bbf;}
+.current { color: #404bbf;}
 /* endregion */
 
 /* region logo */
 .logo {
     font-family: Raleway, sans-serif;
     font-weight: 700;
-        font-size: 18px;
-        line-height: 1.16667;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
         color: #4d5ae5;
 }
 .logo-dark { font-family: "Raleway", sans-serif;
@@ -46,10 +46,16 @@ font-weight: 500;
 /* endregion */
 
 /* redion address */
-.address {color: #434455 ;}
-
-.address-mail {color: #434455;}
-.address-tel {color: #434455;}
+.address {font-family: 'Roboto', sans-serif;
+font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;}
+.address:hover,
+.address:focus { color:#404bbf;
+}
+   
 /* endregion */
 
 /* redion Hero */
@@ -66,13 +72,18 @@ font-weight: 700;
 
 /* #region Buttons */
 .button { background-color: #4D5AE5;
+color: #fff;
 font-family: "Roboto", sans-serif;
 font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff;
 }
+/* button hover| focus */
+.button:hover,
+.button:focus {
+        background: #404bbf;
+    }
 
 /* #endregion */
 
@@ -83,13 +94,19 @@ font-weight: 500;
 
 .benefits-list {color: #2E2F42;}
 
-.benefits-item {}
-
 .benefits-subtitle { font-family: "Roboto", sans-serif;
-    color: #2E2F42;}
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;}
 
 .benefits-text { font-family: "Roboto", sans-serif;
-    color: #434455;}
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;}
 /* #endregion */
 
 /* region team */
@@ -102,9 +119,9 @@ font-weight: 500;
     text-align: center;
     color: #2e2f42;}
 .team-subtitle {font-family: "Roboto", sans-serif;
-    font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11111;
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;}
@@ -119,7 +136,7 @@ font-weight: 400;
 /* endregion */
 
 /* region portfolio */
-.porfolio {background: #fff;}
+.portfolio {background: #fff;}
 .portfolio-title {font-family: "Roboto", sans-serif;
 font-weight: 700;
     font-size: 36px;
