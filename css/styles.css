@@ -46,14 +46,17 @@ font-weight: 500;
 /* endregion */
 
 /* redion address */
-.address {font-family: 'Roboto', sans-serif;
+.address-mail a,
+.address-tel a {font-family: 'Roboto', sans-serif;
 font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;}
-.address:hover,
-.address:focus { color:#404bbf;
+.address-mail a:hover,
+.address-mail a:focus,
+.address-tel a:hover,
+.address-tel a:focus { color:#404bbf;
 }
    
 /* endregion */
@@ -161,14 +164,6 @@ font-weight: 400;
 
 /* region footer */
 .footer {background-color: #2E2F42; }
-
-.logo { font-family: "Raleway", sans-serif;
-    font-weight: 700;
-        font-size: 18px;
-        line-height: 1.16667;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4d5ae5;}
 
 .logo-light {font-family: "Raleway", sans-serif;
 font-weight: 700;
